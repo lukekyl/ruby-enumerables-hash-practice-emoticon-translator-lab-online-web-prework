@@ -16,7 +16,7 @@ def get_japanese_emoticon(path, emoticon)
   if meaning
     p meaning
   else
-    puts "Sorry, we can't find that emoticon."
+    p "Sorry, we can't find that emoticon."
   end
 end
 
@@ -26,6 +26,6 @@ def get_english_meaning(path, emoticon)
   if meaning
     p meaning
   else
-    puts "Sorry, we can't find that English emoticon."
+    p "Sorry, we can't find that English emoticon."
   end
 end
